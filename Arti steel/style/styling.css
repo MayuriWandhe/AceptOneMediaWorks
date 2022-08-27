@@ -13,10 +13,15 @@
     color : #191E28;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1.5rem;
+}
+
 .herosHeading{
     font-size: 50px;
     text-align: justify;
     width: 1px;
+    text-shadow: 2px 2px #000000;
 }
 
 .carousel-control-next, .carousel-control-prev{
@@ -30,6 +35,12 @@
     margin-right: 18px;
     background-color: #ffff;
     opacity: 1;
+    
+}
+
+
+.carousel-indicators{
+    margin-left: 9%
 }
 
 /* .carousel-dark [data-bs-target].active{
@@ -129,7 +140,7 @@
 
 .carousel-caption{
     right: 2%;
-    bottom: 1.25rem;
+    bottom: 5.25rem;
     left: 5%;
 }
 
@@ -145,14 +156,14 @@
 }
 
 
-.carousel-dark [data-bs-target].active{
+.carousel-indicators [data-bs-target].active {
     background-color: #1491D2;
     width: 30px;
     height: 12px;
-    border: 0px;
-    border-radius: 6px !important;
-}   
-
+    border-radius: 23px !important;
+    border: 0;
+    margin-top: 10px;
+}
 
 
 .carousel-indicators [data-bs-target].active{
