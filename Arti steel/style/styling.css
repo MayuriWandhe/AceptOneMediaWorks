@@ -39,8 +39,14 @@
 }
 
 
-.carousel-indicators{
+.secOneIndicators{
     margin-left: 9%
+}
+
+
+.secFourIndicators {
+    margin-left: 28%;
+    margin-bottom: 50px;
 }
 
 /* .carousel-dark [data-bs-target].active{
