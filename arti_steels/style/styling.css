@@ -278,7 +278,7 @@
 
 .footer{
     color: rgba(166, 168, 180, 0.7);
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .footerHead{
@@ -297,8 +297,47 @@ ul.no-bullets {
     background-color: #05111F;
 }
 
+.fa {
+    padding: 5px 5px;
+    font-size: 15px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #505772;
+    color: white;
+  }
 
 
+  .fa-twitter {
+    background: #505772;
+    color: white;
+  }
+
+  
+.fa-linkedin {
+    background: #505772;
+    color: white;
+  }
+
+  
+  .fa-youtube {
+    background: #505772;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #505772;
+    color: white;
+  }
 
 @media (max-width: 575.98px) { 
     /* .herosHeading {
