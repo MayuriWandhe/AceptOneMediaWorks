@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Montserrat&display=swap');
 
-*{
+* {
     /* font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif; */
-        /* animation: fadeInAnimation ease 3s;
+    /* animation: fadeInAnimation ease 3s;
                 animation-iteration-count: 1;
                 animation-fill-mode: forwards; */
 }
 
 
-.navbar>.container{
+.navbar>.container {
     padding: inherit;
 }
 
-.navText{
-    color : #191E28;
+.navText {
+    color: #191E28;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link{
+.navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
 }
 
-.herosHeading{
+.herosHeading {
     font-size: 50px;
     text-align: justify;
     width: 1px;
@@ -30,22 +30,23 @@
     animation-name: slidein;
 }
 
-.carousel-control-next, .carousel-control-prev{
+.carousel-control-next,
+.carousel-control-prev {
     opacity: 0;
 }
 
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
     width: 12px;
     border-radius: 100%;
     height: 12px;
     margin-right: 18px;
     background-color: #ffff;
     opacity: 1;
-    
+
 }
 
 
-.secOneIndicators{
+.secOneIndicators {
     margin-left: 9%
 }
 
@@ -64,25 +65,25 @@
 } */
 
 
-.secTwo{
+.secTwo {
     background-image: url("../assets/vectors/Vector_for_secondSec.svg");
     background-repeat: no-repeat;
-    background-position: left; 
+    background-position: left;
     background-size: initial;
     -webkit-animation: slide-in 0.5s forwards;
 }
 
-.buttons{
+.buttons {
     border: 1px solid #1491D2;
     color: #1491D2;
     animation-name: fadeInOut, moveLeft300px, bounce;
     animation-duration: 2.5s, 5s, 1s;
     animation-iteration-count: 2, 1, 5;
-    animation: zoominoutsinglefeatured 1s infinite ;
+    animation: zoominoutsinglefeatured 1s infinite;
 }
 
 
-.buttons:hover{ 
+.buttons:hover {
     background-color: #1491D2;
     color: #ffffff;
     animation-duration: 10s;
@@ -92,23 +93,23 @@
 }
 
 
-.headingBlue{
+.headingBlue {
     color: #1464AA;
     font-weight: 400;
     font-size: 45px;
-      animation-duration: 3s;
+    animation-duration: 3s;
     animation-name: slidein;
-    animation: zoominoutsinglefeatured 1s infinite ;
+    animation: zoominoutsinglefeatured 1s infinite;
 }
 
-.Paragraph{
+.Paragraph {
     font-size: 25px;
     color: #505772;
     font-weight: 400;
     padding-right: 35px;
 }
 
-.cardOne{
+.cardOne {
     background-color: #1491D2;
     margin-top: -67px;
     z-index: 1;
@@ -116,33 +117,33 @@
     transition: 0.5s all ease-in-out;
 }
 
-.cardOne:hover{
+.cardOne:hover {
     transform: scale(1.2);
 }
 
-.cardThree{
+.cardThree {
     background-color: #1464AA;
     transition: 0.5s all ease-in-out;
 }
 
-.cardThree:hover{
+.cardThree:hover {
     transform: scale(1.2);
     z-index: 1;
 }
 
-.cardFour{
+.cardFour {
     background-color: #1491D2;
     transition: 0.5s all ease-in-out;
 }
 
 
-.cardFour:hover{
+.cardFour:hover {
     transform: scale(1.2);
     z-index: 1;
 }
 
 
-.cardSubHeading{
+.cardSubHeading {
     font-weight: 200;
     font-size: medium;
 }
@@ -151,22 +152,22 @@
     height: 70px;
     width: 70px;
     background-color: #1491D2;
-    transition: 0.5s all ease-in-out;   
-  }
+    transition: 0.5s all ease-in-out;
+}
 
-  
-.square:hover{
+
+.square:hover {
     transform: scale(1.2);
     z-index: 1;
 }
 
 
 
-.secThree{
+.secThree {
     background-image: url("../assets/img/sec_three_bg_img.jpg");
 }
 
-.secThreeCards{
+.secThreeCards {
     color: #1491D2;
     transition: width 4s;
 }
@@ -176,25 +177,27 @@
   } */
 
 
-.secThreePara{
+.secThreePara {
     font-weight: 200;
 }
-.secThreeCards{
+
+.secThreeCards {
     background-color: rgba(25, 30, 40, 0.75);
     border-color: #55646E;
     background: transparent;
-   
+
 }
 
 .card.secThreeCards.rounded-3.py-3:hover {
     background: #ffff;
 }
+
 /* 
 .secFour{
     background-image: url("../assets/img/sec\ 4\ bg\ img.png");
 } */
 
-.carsolImg{
+.carsolImg {
     background-size: contain;
 }
 
@@ -202,7 +205,7 @@
     color: #1464AA;
 } */
 
-.carousel-caption{
+.carousel-caption {
     right: 2%;
     bottom: 5.25rem;
     left: 5%;
@@ -210,7 +213,7 @@
 
 
 
-.carousel-dark .carousel-indicators [data-bs-target]{
+.carousel-dark .carousel-indicators [data-bs-target] {
     margin-top: 10px;
     background-color: #ffffff;
     border: 2px solid #1491D2;
@@ -230,7 +233,7 @@
 }
 
 
-.carousel-indicators [data-bs-target].active{
+.carousel-indicators [data-bs-target].active {
     background-color: #1491D2;
     width: 30px;
     height: 12px;
@@ -238,21 +241,21 @@
 }
 
 
-.secSix{
+.secSix {
     background-color: #191E28;
 }
 
-.betterCommunityPara{
+.betterCommunityPara {
     font-weight: 200;
 }
 
 
-.secSixHeadings{
+.secSixHeadings {
     font-size: 45px;
 }
 
 
-.secSevenPara{
+.secSevenPara {
     color: #1491D2;
 }
 
@@ -260,9 +263,9 @@
     position: relative;
     text-align: center;
     color: white;
-  }
-  
-  .centered {
+}
+
+.centered {
     position: absolute;
     left: 38%;
     bottom: 0px;
@@ -270,30 +273,33 @@
 }
 
 
-.footerBg{
+.footerBg {
     background-color: #091727;
-    
+
 }
 
 
-.footer{
+.footer {
     color: rgba(166, 168, 180, 0.7);
     font-size: 10px;
 }
 
-.footerHead{
-    color: #A6A8B4  ;
+.footerHead {
+    color: #A6A8B4;
     font-size: 13px;
 }
 
 ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-  }
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
 
 
-.copyright{
+.copyright {
     background-color: #05111F;
 }
 
@@ -305,48 +311,48 @@ ul.no-bullets {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 100%;
-  }
+}
 
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
 }
 
 .fa-facebook {
     background: #505772;
     color: white;
-  }
+}
 
 
-  .fa-twitter {
+.fa-twitter {
     background: #505772;
     color: white;
-  }
+}
 
-  
+
 .fa-linkedin {
     background: #505772;
     color: white;
-  }
+}
 
-  
-  .fa-youtube {
+
+.fa-youtube {
     background: #505772;
     color: white;
-  }
-  
-  .fa-instagram {
+}
+
+.fa-instagram {
     background: #505772;
     color: white;
-  }
+}
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
     /* .herosHeading {
         font-size: 27px;
         text-align: justify;
         width: 1px;
         text-shadow: 2px 2px #000000;
     } */
- }
+}
 
 /* media query */
 
@@ -360,7 +366,7 @@ ul.no-bullets {
  } */
 
 
- /* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (tablets, 768px and up) */
 /* @media (min-width: 768px) { 
     .herosHeading {
         font-size: 27px;
@@ -391,11 +397,38 @@ ul.no-bullets {
  } */
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
+/* @media (min-width: 1400px) { 
     .herosHeading{
         font-size: 50px;
         text-align: justify;
         width: 1px;
         text-shadow: 2px 2px #000000;
     }
- }
+
+    
+ } */
+
+@media (max-width: 786px) {
+    img {
+        width: 100vw;
+    }
+
+    .sm-screen {
+        margin-top: 5rem;
+    }
+
+    .sm-hidden {
+        display: none !important;
+    }
+
+    .herosHeading {
+        font-size: 2rem;
+    }
+
+    .d-xs-s{
+        width: 100vw;
+        height: 40vh;
+    }
+
+
+}
